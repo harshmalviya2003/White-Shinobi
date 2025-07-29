@@ -124,7 +124,6 @@ export default function Hero() {
                 {stats.map((stat, index) => (
                     <motion.div 
                         key={index} 
-                        variants={itemVariants}
                         className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 text-center group transition-all duration-300 hover:border-blue-400/50 hover:bg-white/10 hover:-translate-y-2"
                     >
                         <div className='flex justify-center items-center gap-4'>
