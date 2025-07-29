@@ -79,14 +79,14 @@ export default function Hero() {
               initial="hidden"
               animate="visible"
             >
-              <motion.div variants={itemVariants} className="mb-6 flex justify-center">
+              <motion.div  className="mb-6 flex justify-center">
                   <div className="p-4 bg-white/10 rounded-full border border-white/20 backdrop-blur-sm">
                       <Shield className="h-10 w-10 sm:h-12 sm:w-12 text-blue-400" />
                   </div>
               </motion.div>
               
               <motion.h1 
-                  variants={itemVariants} 
+                  
                   className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6"
               >
                 Elite Penetration{' '}
@@ -96,13 +96,13 @@ export default function Hero() {
               </motion.h1>
               
               <motion.p 
-                  variants={itemVariants} 
+               
                   className="text-base sm:text-lg text-slate-300 mb-10 max-w-xl sm:max-w-3xl mx-auto leading-relaxed"
               >
                 Uncover vulnerabilities before they're exploited. White Shinobi delivers world-class penetration testing to fortify your digital defenses.
               </motion.p>
               
-              <motion.div variants={itemVariants}>
+              <motion.div >
                   <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-500 text-white font-semibold text-base rounded-lg px-8 py-6 h-auto group transform hover:scale-105 transition-transform duration-300">
                       <Link href="/assessment">
                         Start Security Assessment
