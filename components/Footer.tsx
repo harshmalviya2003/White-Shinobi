@@ -141,7 +141,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="py-6 border-t border-gray-800/60 text-center">
           <p className="text-gray-500 text-xs">
-            © {currentYear} White Shinobi Security. All rights reserved. ISO 27001 Certified.
+            © {currentYear}. All rights reserved. Akshat Sharma.
           </p>
         </div>
       </div>
